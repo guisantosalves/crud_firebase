@@ -1,3 +1,3 @@
-#crud with firebase
+# crud with firebase
 
-i am using reactjs, react-bootstrap
+I am using reactjs, react-bootstrap
