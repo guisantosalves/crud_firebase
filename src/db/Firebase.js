@@ -1,20 +1,21 @@
 //importações padroes
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
+import env from "react-dotenv";
 
 //configurando o firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyAkmJ7_CoFj6D1TXdgsuuXzn9n5dv61PqI",
+  apiKey: env.API_KEY,
 
-  authDomain: "next-crud-5d230.firebaseapp.com",
+  authDomain: env.AUTH_DOMAIN,
 
-  projectId: "next-crud-5d230",
+  projectId: env.PROJECT_ID,
 
-  storageBucket: "next-crud-5d230.appspot.com",
+  storageBucket: env.STORAGE_BUCKET,
 
-  messagingSenderId: "405305402966",
+  messagingSenderId: env.MESSAGING_SENDERID,
 
-  appId: "1:405305402966:web:a314dbfae71ebc0355fdf7",
+  appId: env.APP_ID,
 };
 
 //inicializando o firebase e o firestore
