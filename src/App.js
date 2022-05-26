@@ -1,9 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import { Container, Row, Col } from 'react-bootstrap';
-import Formulario from "./components/Formulario.jsx"
-import { Button } from 'bootstrap';
-
+import logo from "./logo.svg";
+import "./App.css";
+import { Container, Row, Col } from "react-bootstrap";
+import Formulario from "./components/Formulario.jsx";
+import { Button } from "bootstrap";
+import Tabela from "./components/Tabela";
 
 function App() {
   return (
@@ -15,7 +15,12 @@ function App() {
       </Row>
       <Row>
         <Col>
-          <Formulario/>
+          <Formulario />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Tabela />
         </Col>
       </Row>
     </Container>

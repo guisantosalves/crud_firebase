@@ -8,6 +8,7 @@ const Formulario = (props) => {
   const [nome, setNome] = useState("");
   const [idade, setIdade] = useState(0);
 
+  //cadastra usuário
   const handlePost = () => {
     try{
 
@@ -23,6 +24,7 @@ const Formulario = (props) => {
     }
   }
 
+  
   return (
     <Form>
       <Form.Group className="mb-3" controlId="formUsuario">
