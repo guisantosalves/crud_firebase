@@ -24,7 +24,7 @@ const Formulario = (props) => {
     }
   }
 
-  
+
   return (
     <Form>
       <Form.Group className="mb-3" controlId="formUsuario">
